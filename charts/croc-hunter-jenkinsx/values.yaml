@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.97.209.18:5000/jwtodd/croc-hunter-jenkinsx-serverless
+  tag: 0.0.140
   pullPolicy: IfNotPresent
 service:
   name: croc-hunter-jenkinsx
